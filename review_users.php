@@ -9,7 +9,6 @@
         while ($row = mysqli_fetch_assoc($results)) {
             echo $row["name"]. "<br>";
             echo $row["email"]."<br>";
-            echo $row["message"]."<br>";
         }
     } else {
         echo "No users found.";
